@@ -5,13 +5,23 @@ with help from David Lu
 This is meant to run on Linux. If you can make it run (or even build)
 elsewhere, cool. Can you tell me how?
 
-To build, cd into src/ and run make. You need to have these libraries:
+You need to have these libraries on Debian/Ubuntu:
 
 libsdl
 libsdl-ttf
 libsdl-mixer
 libsdl-image
 libsdl-gfx
+
+And these on Fedora:
+
+SDL-devel
+SDL_ttf-devel
+SDL_mixer-devel
+SDL_image-devel
+SDL_gfx-devel
+
+To build, cd into src/ and run make.
 
 I don't know that this list is exhaustive, nor that it's minimal. These
 are the relevant-looking ones I have installed on the machine I develop
